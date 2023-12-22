@@ -150,7 +150,7 @@ describe('Tooltip', () => {
         })
         expect(buubleRef).not.toHaveClass('hidden')
         expect(buubleRef).toHaveClass('bottom')
-        expect(customElement.style.getPropertyValue('--slot-shift-right')).toBe('-8px')
+        expect(customElement.style.getPropertyValue('--slot-shift-right')).toBe('58px')
 
       }
     }
@@ -190,7 +190,7 @@ describe('Tooltip', () => {
           cancelable: true,
         })
         expect(buubleRef).not.toHaveClass('hidden')
-        expect(customElement.style.getPropertyValue('--slot-shift-right')).toBe('-16px')
+        expect(customElement.style.getPropertyValue('--slot-shift-right')).toBe('58px')
       }
     }
   })

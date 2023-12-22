@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="tooltip.js"></script>
+
+  <style>
+    body {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .tooltip-target {
+      border: solid 1px black;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Load star input component with CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/wc-tooltip@1.0.0"></script>
+  <div style="padding: 20px; display: flex; justify-content: space-between;">
+    <div>
+      <wc-tooltip alt="">
+        <div slot="tooltip-html">
+          <h3>Title</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>ok</button>
+        </div>
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+      <wc-tooltip alt="hello">
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+    </div>
+    <div>
+      <wc-tooltip alt="hello">
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+      <wc-tooltip alt="">
+        <div slot="tooltip-html">
+          <h3>Title</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>ok</button>
+        </div>
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+    </div>
+  </div>
+  <div
+    style="padding: 20px; position: absolute; bottom: 20px; display: flex; justify-content: space-between; width: calc(100% - 60px)">
+    <div>
+      <wc-tooltip alt="">
+        <div slot="tooltip-html">
+          <h3>Title</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>ok</button>
+        </div>
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+      <wc-tooltip alt="hello">
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+    </div>
+    <div>
+      <wc-tooltip alt="hello">
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+      <wc-tooltip alt="">
+        <div slot="tooltip-html">
+          <h3>Title</h3>
+          <hr />
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <button>ok</button>
+        </div>
+        <div class="tooltip-target">hover me</div>
+      </wc-tooltip>
+    </div>
+  </div>
+</body>
+
+</html>

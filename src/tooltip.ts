@@ -20,7 +20,7 @@ export default class Tooltip extends HTMLElement {
     if (this.shadowRoot !== null) {
       // DOM
       this.shadowRoot.innerHTML = this.template()
-      const tooltipContainer = this.shadowRoot.querySelector(".tooltip-container");
+
       const bubble = this.shadowRoot.querySelector(".bubble");
       const htmlSlot = this.shadowRoot.querySelector(
         'slot[name="tooltip-html"]'
@@ -74,12 +74,13 @@ export default class Tooltip extends HTMLElement {
   handleMouseEnter() {
     if (this.shadowRoot !== null) {
       const bubble = this.shadowRoot.querySelector(".bubble");
-      if (bubble !== null) {
+      const tooltipContainer = this.shadowRoot.querySelector(".tooltip-container");
+      if (bubble !== null && tooltipContainer !== null) {
         bubble.classList.remove("hidden");
 
         // check viewport boundary
         // 1. check top/bottom space
-        const selfRect = this.getBoundingClientRect()
+        const selfRect = tooltipContainer.getBoundingClientRect()
         this.style.setProperty('--slot-content-heght', `${selfRect.height}px`)
         const bubbleRect = bubble.getBoundingClientRect()
         if (selfRect.top < bubbleRect.height) {
@@ -89,9 +90,15 @@ export default class Tooltip extends HTMLElement {
         }
         // 2. check left/right space
         if (selfRect.left < bubbleRect.width / 2) {
-          this.style.setProperty('--slot-shift-right', `${selfRect.left - 8}px`)
+          this.style.setProperty('--slot-shift-right', `${bubbleRect.width / 2 -
+            selfRect.left -
+            selfRect.width / 2 + 8
+            }px`)
         } else if ((window.visualViewport!.width - selfRect.right) < bubbleRect.width / 2) {
-          this.style.setProperty('--slot-shift-right', `-${window.visualViewport!.width - selfRect.right - 8}px`)
+          this.style.setProperty('--slot-shift-right', `-${bubbleRect.width / 2 -
+            (window.visualViewport!.width - selfRect.right) -
+            selfRect.width / 2 + 8
+            }px`)
         }
       }
     }
