@@ -1,5 +1,5 @@
 {
-  "name": "wc-tooltip",
+  "name": "@yishiashia/wc-tooltip",
   "version": "1.0.0",
   "description": "A lightweight and developer-friendly tooltip web component.",
   "main": "./dist/tooltip.js",

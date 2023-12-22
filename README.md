@@ -44,10 +44,10 @@ There is `jsDelivr` CDN available for quickly integrated with your web page.
 
 ```html
 <!-- Latest version -->
-<script src="https://cdn.jsdelivr.net/npm/wc-tooltip"></script>
+<script src="https://cdn.jsdelivr.net/npm/@yishiashia/wc-tooltip"></script>
 
 <!-- Specific version -->
-<script src="https://cdn.jsdelivr.net/npm/wc-tooltip@1.0.0"></script>
+<script src="https://cdn.jsdelivr.net/npm/@yishiashia/wc-tooltip@1.0.0"></script>
 ```
 
 #### Basic Usages:
@@ -56,7 +56,7 @@ There is `jsDelivr` CDN available for quickly integrated with your web page.
 <html>
   <head>
     <!-- Load wc-tooltip WebComponent library -->
-    <script src="https://cdn.jsdelivr.net/npm/wc-tooltip@1.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@yishiashia/wc-tooltip@1.0.0"></script>
     <!-- End Load -->
   </head>
 
