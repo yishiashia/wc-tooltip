@@ -98,8 +98,8 @@ class customizedTooltip extends Tooltip {
 
 [wc-image]: https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square
 [wc-url]: https://www.webcomponents.org/element/wc-tooltip
-[coverage-image]: https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fgist.githubusercontent.com%2Fyishiashia%2Fdee60aefdce58a7559baeb7c5deb3a8b%2Fraw%2F9536ad2fd04e8dd663d9d442609bba082eb59f95%2Fwc-tooltip__heads_main.json
-[coverage-url]: https://gist.githubusercontent.com/yishiashia/dee60aefdce58a7559baeb7c5deb3a8b/raw/9536ad2fd04e8dd663d9d442609bba082eb59f95/wc-tooltip__heads_main.json
+[coverage-image]: https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fgist.githubusercontent.com%2Fyishiashia%2Fdee60aefdce58a7559baeb7c5deb3a8b%2Fraw%2Fd07b16c7c7d64720de7e505aab9729333d88c43a%2Fwc-tooltip__heads_main.json
+[coverage-url]: https://gist.githubusercontent.com/yishiashia/dee60aefdce58a7559baeb7c5deb3a8b/raw/d07b16c7c7d64720de7e505aab9729333d88c43a/wc-tooltip__heads_main.json
 [js-image]: https://img.shields.io/badge/ES-6%2B-ff69b4.svg?style=flat-square
 [js-url]: https://www.ecma-international.org/ecma-262/6.0/
 [ts-image]: https://img.shields.io/badge/TypeScript-^4.7.4-blue?style=flat-square
