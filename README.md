@@ -2,12 +2,12 @@
 
 [![published][wc-image]][wc-url]
 [![coverage][coverage-image]][coverage-url]
-[![npm](https://img.shields.io/npm/v/wc-tooltip.svg?style=flat-square)](https://www.npmjs.com/package/wc-tooltip)
-[![npm](https://img.shields.io/npm/dm/wc-tooltip.svg?style=flat-square)](https://www.npmjs.com/package/wc-tooltip)
+[![npm](https://img.shields.io/npm/v/@yishiashia/wc-tooltip.svg?style=flat-square)](https://www.npmjs.com/package/@yishiashia/wc-tooltip)
+[![npm](https://img.shields.io/npm/dm/@yishiashia/wc-tooltip.svg?style=flat-square)](https://www.npmjs.com/package/@yishiashia/wc-tooltip)
 [![GitHub issues](https://img.shields.io/github/issues/yishiashia/wc-tooltip.svg?style=flat-square)](https://github.com/yishiashia/wc-tooltip/issues)
-![license](https://img.shields.io/npm/l/wc-tooltip.svg?style=flat-square)
+![license](https://img.shields.io/npm/l/@yishiashia/wc-tooltip.svg?style=flat-square)
 
-[![NPM](https://nodei.co/npm/wc-tooltip.png?mini=true)](https://www.npmjs.com/package/wc-tooltip)
+[![NPM](https://nodei.co/npm/@yishiashia/wc-tooltip.png?mini=true)](https://www.npmjs.com/package/@yishiashia/wc-tooltip)
 
 A lightweight and developer-friendly tooltip web component.
 
@@ -97,7 +97,7 @@ class customizedTooltip extends Tooltip {
 ```
 
 [wc-image]: https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square
-[wc-url]: https://www.webcomponents.org/element/wc-tooltip
+[wc-url]: https://www.webcomponents.org/element/@yishiashia/wc-tooltip
 [coverage-image]: https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fgist.githubusercontent.com%2Fyishiashia%2Fdee60aefdce58a7559baeb7c5deb3a8b%2Fraw%2Fd07b16c7c7d64720de7e505aab9729333d88c43a%2Fwc-tooltip__heads_main.json
 [coverage-url]: https://gist.githubusercontent.com/yishiashia/dee60aefdce58a7559baeb7c5deb3a8b/raw/d07b16c7c7d64720de7e505aab9729333d88c43a/wc-tooltip__heads_main.json
 [js-image]: https://img.shields.io/badge/ES-6%2B-ff69b4.svg?style=flat-square
