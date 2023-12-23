@@ -1,6 +1,6 @@
 {
   "name": "@yishiashia/wc-tooltip",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight and developer-friendly tooltip web component.",
   "main": "./dist/tooltip.js",
   "types": "./types/index.d.ts",
@@ -25,6 +25,10 @@
     "url": "https://github.com/yishiashia/wc-tooltip/issues"
   },
   "homepage": "https://github.com/yishiashia/wc-tooltip#readme",
+  "files": [
+    "dist/*",
+    "types/*"
+  ],
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/plugin-proposal-private-property-in-object": "^7.17.12",
