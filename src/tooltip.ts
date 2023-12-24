@@ -89,7 +89,7 @@ export default class Tooltip extends HTMLElement {
           bubble.classList.remove('bottom')
         }
         // 2. check left/right space
-        if (selfRect.left < bubbleRect.width / 2) {
+        if ((selfRect.left + selfRect.width / 2) < bubbleRect.width / 2) {
           this.style.setProperty('--slot-shift-right', `${bubbleRect.width / 2 -
             selfRect.left -
             selfRect.width / 2 + 8
