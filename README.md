@@ -4,6 +4,7 @@
 [![coverage][coverage-image]][coverage-url]
 [![npm](https://img.shields.io/npm/v/@yishiashia/wc-tooltip.svg?style=flat-square)](https://www.npmjs.com/package/@yishiashia/wc-tooltip)
 [![npm](https://img.shields.io/npm/dm/@yishiashia/wc-tooltip.svg?style=flat-square)](https://www.npmjs.com/package/@yishiashia/wc-tooltip)
+[![](https://data.jsdelivr.com/v1/package/npm/@yishiashia/wc-tooltip/badge)](https://www.jsdelivr.com/package/npm/@yishiashia/wc-tooltip)
 [![GitHub issues](https://img.shields.io/github/issues/yishiashia/wc-tooltip.svg?style=flat-square)](https://github.com/yishiashia/wc-tooltip/issues)
 ![license](https://img.shields.io/npm/l/@yishiashia/wc-tooltip.svg?style=flat-square)
 
